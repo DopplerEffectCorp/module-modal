@@ -1,0 +1,22 @@
+{
+  "name": "modal",
+  "version": "0.0.0",
+  "description": "Doppler Effect Modal",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DopplerEffectCorp/module-modal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DopplerEffectCorp/module-modal/issues"
+  },
+  "homepage": "https://github.com/DopplerEffectCorp/module-modal#readme",
+  "dependencies": {
+    "@angular/common": "^4.2.2",
+    "@angular/core": "^4.2.2",
+    "rxjs": "^5.4.0",
+    "zone.js": "^0.8.12"
+  }
+}

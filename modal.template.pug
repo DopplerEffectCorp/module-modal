@@ -1,0 +1,3 @@
+div((click)="outOfBounds()", [class.active]="stateValue").reveal-overlay
+  div((mouseenter)="overModal = true", (mouseleave)="overModal = false").reveal
+    ng-content(select=".de-modal-content")
