@@ -1,1 +1,1 @@
-<div class="reveal-overlay" (click)="outOfBoundsClick()" [class.active]="stateValue"><div class="reveal" (mouseenter)="overModal = true" (mouseleave)="overModal = false"><ng-content select=".de-modal-content"></ng-content></div></div>
+<div class="reveal-overlay" (click)="outOfBoundsClick()" *ngIf="stateValue"><div class="reveal" (mouseenter)="overModal = true" (mouseleave)="overModal = false"><ng-content select=".de-modal-content"></ng-content></div></div>
