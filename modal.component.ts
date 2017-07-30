@@ -1,5 +1,4 @@
 import {Component, EventEmitter, Input, Output} from "@angular/core";
-import {outOfBoundsError} from "@angular/core/src/di/reflective_errors";
 
 @Component({
     selector: 'de-modal',
