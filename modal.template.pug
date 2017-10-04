@@ -1,3 +1,9 @@
 div((click)="outOfBoundsClick()", *ngIf="stateValue").reveal-overlay
-  div((mouseenter)="overModal = true", (mouseleave)="overModal = false").reveal
+  div((mouseenter)="overModal = true", (mouseleave)="overModal = false",
+  [class.small]="size === 'small'", [class.full]="size === 'full'", [class.large]="size === 'large'", [class.xs-small]="size === 'tiny'").reveal
+
+    div(*ngIf="pathIconClose").icon-close
+      button(type="button", (click)="overModal = false")
+        img([src]="pathIconClose")
+
     ng-content(select=".de-modal-content")

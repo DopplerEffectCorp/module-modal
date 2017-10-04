@@ -11,6 +11,8 @@ export class DeModal {
 
     overModal = false;
     stateValue = false;
+    @Input() size: string;
+    @Input() pathIconClose: string;
     @Output() stateChange = new EventEmitter();
     @Input() outOfBounds: boolean = true;
     @Input()

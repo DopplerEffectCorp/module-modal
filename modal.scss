@@ -2,5 +2,21 @@
   display: block;
   .reveal {
     display: block;
+    position: relative;
+    &.xs-small {
+      width: 30%;
+    }
+    &.full {
+      height: 100%;
+    }
+    .icon-close {
+      position: absolute;
+      top: 0;
+      right: 0;
+      padding: 10px;
+      margin: 5px;
+      cursor: pointer;
+      outline: none;
+    }
   }
 }
