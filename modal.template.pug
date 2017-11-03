@@ -1,6 +1,5 @@
 div((click)="outOfBoundsClick()", *ngIf="stateValue").reveal-overlay
-  div((mouseenter)="overModal = true", (mouseleave)="overModal = false",
-  [class.small]="size === 'small'", [class.full]="size === 'full'", [class.large]="size === 'large'", [class.xs-small]="size === 'tiny'").reveal
+  div((mouseenter)="overModal = true", (mouseleave)="overModal = false", class = "{{ size }}").reveal
 
     div(*ngIf="pathIconClose").icon-close
       button(type="button", (click)="overModal = false")
