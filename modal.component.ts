@@ -29,4 +29,8 @@ export class DeModal {
             this.state = !this.state;
     };
 
+    close() {
+        this.state = false;
+    }
+
 }
